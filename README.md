@@ -7,6 +7,7 @@ This is an implementation of Naive Bayes Classifer. The current implementation c
 * [How does this work?](#how-does-this-work)
 * [Time Complexity](#Time-Complexity)
 * [Data Structures Used](#Data-Structures-Used)
+* [Libraries Used](#Libraries-Used)
 * [Further Improvements](#Further-Improvements)
 
 
@@ -42,6 +43,11 @@ Since training the model is just parsing the file, the time taken is linear. The
 * **Dictionaries**
 * **Arrays**
 * **Sets**
+
+## Libraries Used
+* os
+* math
+* sys
 
 ## Further Improvements
 We can further improve this using smoothing. We can further extend this to accomodate continuous variables.
