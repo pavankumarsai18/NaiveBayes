@@ -34,7 +34,7 @@ The file outputs two lines. The first line corresponds to the accuracy measures 
 ## How does this work?
 This model first gets the count of each attribute in the training file. It then gets each instance from the test file and computes the probability of the test instance agaist each class label. The model predicts the instance to be the class label with the highest calculated probability. To prevent underflow we calculate the probability using logarithms.
 
-[!NaiveBayes](/pics/NaiveBayes.png)
+![Naive Bayes](/pics/NaiveBayes.png)
 
 ## Time Complexity
 Since training the model is just parsing the file, the time taken is linear. The testing on the other hand requires the computation of probability which scales linearly with respect to the number of attributes. So the time complexity for Naive Bayes is O(N * d), where N is the number of instances and d is the number of attributes.
