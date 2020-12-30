@@ -12,7 +12,13 @@ This is an implementation of Naive Bayes Classifer. The current implementation c
 
 
 ## How to use
-To use this implementation simply download the '.zip' file and run the 'NaiveBayes' python file. To run the python file we require a training file and a test file. The model is going to be trained and tested using the given files. The training and the test cases should be formatted as specified below. There should be atleast one instance of each class in the training file.
+To use this implementation simply download the '.zip' file and run the 'NaiveBayes' python file. To run the python file we require a training file and a test file. The model is going to be trained and tested using the given files. The training and the test cases should be formatted as specified below. There should be atleast one instance of each class in the training file. 
+
+1. Download the code
+2. Navigate to the folder named 'src'
+3. Run the following command with a testFile and trainFile
+
+**python NaiveBayes.py trainFile testFile**
 
 ## Input Format
 The format of the files should be as follows:
